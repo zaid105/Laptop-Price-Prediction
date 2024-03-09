@@ -31,8 +31,13 @@ Optimizing algorithm parameters to enhance the model's accuracy and performance.
 
 # Risk And Challenges
 "In this project, I encountered several notable challenges that added complexity to the analysis. Firstly, the dataset, comprising only 1300 rows and 12 columns, presented a limitation in terms of size. This constraint made achieving a high level of accuracy challenging, as the model had a relatively small amount of data to learn from. Additionally, the need for extensive feature engineering emerged as a significant hurdle. With the dataset requiring a deeper level of understanding, I found myself creating multiple columns derived from a single variable. While this approach provided a more nuanced perspective, extracting meaningful insights and knowledge from these new features proved to be intricate. Furthermore, the process of generating additional columns based on acquired knowledge presented its own set of challenges. Despite these obstacles, I persisted in the pursuit of a comprehensive analysis, aiming to leverage the limited dataset effectively and derive valuable insights from the engineered features."
+<br>
+<br>
+# User Interface
+![Screenshot 2024-03-09 195551](https://github.com/zaid105/Laptop-Price-Prediction/assets/142628044/b6b0f3ca-79b2-4c7a-9774-26552325005d)
 
 
+![Screenshot 2024-03-09 195620](https://github.com/zaid105/Laptop-Price-Prediction/assets/142628044/c9b32110-24d6-4b05-88ee-68b140bd416d)
 
 
 
