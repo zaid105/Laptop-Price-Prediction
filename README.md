@@ -1,38 +1,43 @@
-# Laptop Price Prediction
-This project aims to predict laptop prices accurately using advanced machine learning techniques. The prediction model will be developed based on extensive data analysis and feature engineering.
-<br><br>
+# Laptop Price Prediction Model
+## Problem Statement
 The increasing variety and complexity of laptops in the market make it challenging for consumers to estimate the fair market price for a given set of laptop specifications. This project aims to develop a predictive model that accurately estimates the price of a laptop based on various features and specifications.
-<br>
-# Problem Statement: Predicting Laptop Prices Accurately
-#### Challenges in Pricing
-#### Data Complexity
-#### Market Fluctuations<br>
+## Data Collection
+To create an effective model, data collection was the first critical step. I gathered data from Amazon using Beautiful Soup and Requests libraries.<br><br>
+    •	Beautiful Soup: A Python library for parsing HTML and XML documents. It creates parse trees from page source code, which can be used to extract data easily.<br><br>
+    •	Requests: A simple-to-use HTTP library for making HTTP requests in Python. It simplifies sending requests and receiving responses, making it easier to scrape web data.
+## Data Cleaning
+The collected data was highly jumbled and required extensive cleaning. This included extracting information from cluttered columns and creating new, meaningful columns. For instance, I combined two columns representing resolution (X and Y) into one column, "PPI" (Pixels Per Inch).<br><br>
+•	PPI (Pixels Per Inch): A measure of pixel density on a display, indicating how many pixels are packed into one inch of the screen.
+## Data Visualization
+Data visualization helped to understand the insights from the data. During this step, I discovered that the target variable (price) was skewed.<br><br>
+•	np.log: A function from the NumPy library that applies the natural logarithm to the data. It is used to normalize skewed data, making it more suitable for modeling.
+## Hypothesis Testing
+I conducted hypothesis testing to validate assumptions about the data.<br><br>
+•	Hypothesis Testing: A statistical method that helps in making inferences about the population based on sample data. It is advantageous as it provides a systematic way to test assumptions and validate models.
+## Encoding and Splitting Data
+Categorical data was converted into numerical format using encoding techniques, and the dataset was split into training and testing sets to build the model effectively.
+## Model Building
+I experimented with various regression models including Linear Regression, Ridge, Lasso, KNN, SVM, Decision Tree, Random Forest, AdaBoost, Gradient Boosting, and XGBoost. Initially, without hyperparameter tuning, I achieved an accuracy score of approximately 78%.
+## Hyperparameter Tuning
+For ensemble learning methods (Random Forest, AdaBoost, Gradient Boosting, XGBoost), hyperparameter tuning was performed to improve model performance.<br><br>
+•	Evaluation Metrics: Used to assess the performance of the models, including MAE (Mean Absolute Error), MSE (Mean Squared Error), RMSE (Root Mean Squared Error), and R2 Score. XGBoost provided the best results among all models.<br><br>
+•	After hyperparameter tunning I found out my XGBoost model giving me high accuracy.<br><br>
+•	MAE = 0.13 ,  MSE = 0.03,  RMSE = 0.18 , R2 = 0.90  ,  Adjusted R2 = 0.90 
 
-# Methodology: 
-##### Data Understanding
-##### Feature Engineering
-##### Visualization
-##### Hypothesis Testing
-##### Data Preprocessing
-##### Data Splitting 
-##### Model Building
-##### Model Evalution
+## Dashboard:
+•	With the help of ‘Power BI’ I created a beautiful dashboard.
 
-# Model Evalution
-Comparing and assessing various machine learning algorithms to determine the most suitable model for price prediction.
-# Hyperparameter Tuning
-Optimizing algorithm parameters to enhance the model's accuracy and performance.
+## Deployment
+The final step was to deploy the model so it can be used in real-world scenarios. Deployment involves making the model available to users through a platform or application.
+This summary encapsulates the process of building a predictive model for estimating laptop prices based on specifications, from data collection to deployment.
 
-# Power BI Dashboard
-(![Screenshot 2024-02-04 123409](https://github.com/zaid105/Laptop-Price-Prediction/assets/142628044/bef5d468-1a0a-440a-8831-e36efba80699)
+## Risk And Challenges
+In this project, I faced several challenges that made the analysis more complicated. Here are the main issues:<br><br>
+1.	Small Dataset: The dataset had only 1300 rows and 12 columns. This small size made it difficult for the model to achieve high accuracy because there wasn't much data to learn from.<br><br>
+2.	Feature Engineering: I had to do a lot of feature engineering, which means creating new columns from the existing data. This was necessary to gain a deeper understanding of the dataset. However, it was tricky to extract meaningful insights from these new features.<br><br>
+3.	Complex Data Processing: Creating new columns based on the knowledge I acquired was challenging. Despite these difficulties, I kept working on the analysis to make the most out of the limited data and to extract valuable insights from the newly created features.
+<br><br>
 
-# Evaluation Metrics
-![image](https://github.com/zaid105/Laptop-Price-Prediction/assets/142628044/adeb03a1-8730-4586-8fcc-a8e7b05cfd00)
-
-# Risk And Challenges
-"In this project, I encountered several notable challenges that added complexity to the analysis. Firstly, the dataset, comprising only 1300 rows and 12 columns, presented a limitation in terms of size. This constraint made achieving a high level of accuracy challenging, as the model had a relatively small amount of data to learn from. Additionally, the need for extensive feature engineering emerged as a significant hurdle. With the dataset requiring a deeper level of understanding, I found myself creating multiple columns derived from a single variable. While this approach provided a more nuanced perspective, extracting meaningful insights and knowledge from these new features proved to be intricate. Furthermore, the process of generating additional columns based on acquired knowledge presented its own set of challenges. Despite these obstacles, I persisted in the pursuit of a comprehensive analysis, aiming to leverage the limited dataset effectively and derive valuable insights from the engineered features."
-<br>
-<br>
 # User Interface
 ![Screenshot 2024-03-09 195551](https://github.com/zaid105/Laptop-Price-Prediction/assets/142628044/b6b0f3ca-79b2-4c7a-9774-26552325005d)
 
