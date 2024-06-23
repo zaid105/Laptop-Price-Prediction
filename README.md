@@ -14,6 +14,7 @@ Data visualization helped to understand the insights from the data. During this 
 ## Hypothesis Testing
 I conducted hypothesis testing to validate assumptions about the data.<br><br>
 •	Hypothesis Testing: A statistical method that helps in making inferences about the population based on sample data. It is advantageous as it provides a systematic way to test assumptions and validate models.
+
 ## Encoding and Splitting Data
 Categorical data was converted into numerical format using encoding techniques, and the dataset was split into training and testing sets to build the model effectively.
 ## Model Building
@@ -23,7 +24,8 @@ For ensemble learning methods (Random Forest, AdaBoost, Gradient Boosting, XGBoo
 •	Evaluation Metrics: Used to assess the performance of the models, including MAE (Mean Absolute Error), MSE (Mean Squared Error), RMSE (Root Mean Squared Error), and R2 Score. XGBoost provided the best results among all models.<br><br>
 •	After hyperparameter tunning I found out my XGBoost model giving me high accuracy.<br><br>
 •	MAE = 0.13 ,  MSE = 0.03,  RMSE = 0.18 , R2 = 0.90  ,  Adjusted R2 = 0.90 
-
+<br><br>
+![image](https://github.com/zaid105/Laptop-Price-Prediction/assets/142628044/d42ce177-0f48-4e22-b5db-fa55396aa8f7)
 ## Dashboard:
 •	With the help of ‘Power BI’ I created a beautiful dashboard.
 
