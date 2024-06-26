@@ -2,7 +2,8 @@
 ## Problem Statement
 The increasing variety and complexity of laptops in the market make it challenging for consumers to estimate the fair market price for a given set of laptop specifications. This project aims to develop a predictive model that accurately estimates the price of a laptop based on various features and specifications.
 ## Data Collection
-To create an effective model, data collection was the first critical step. I gathered data from Amazon using Beautiful Soup and Requests libraries.<br><br>
+To create an effective model, data collection was the first critical step. I downloaded a dataset from Kaggle, but it contained a small number of observations. Therefore, I tried gathering additional data from Amazon using the Beautiful Soup and Requests libraries.
+<br><br>
     •	Beautiful Soup: A Python library for parsing HTML and XML documents. It creates parse trees from page source code, which can be used to extract data easily.<br><br>
     •	Requests: A simple-to-use HTTP library for making HTTP requests in Python. It simplifies sending requests and receiving responses, making it easier to scrape web data.
 ## Data Cleaning
