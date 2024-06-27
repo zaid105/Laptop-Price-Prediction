@@ -12,9 +12,6 @@ The collected data was highly jumbled and required extensive cleaning. This incl
 ## Data Visualization
 Data visualization helped to understand the insights from the data. During this step, I discovered that the target variable (price) was skewed.<br><br>
 •	np.log: A function from the NumPy library that applies the natural logarithm to the data. It is used to normalize skewed data, making it more suitable for modeling.
-## Hypothesis Testing
-I conducted hypothesis testing to validate assumptions about the data.<br><br>
-•	Hypothesis Testing: A statistical method that helps in making inferences about the population based on sample data. It is advantageous as it provides a systematic way to test assumptions and validate models.
 
 ## Encoding and Splitting Data
 Categorical data was converted into numerical format using encoding techniques, and the dataset was split into training and testing sets to build the model effectively.
