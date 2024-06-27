@@ -33,6 +33,9 @@ For ensemble learning methods (Random Forest, AdaBoost, Gradient Boosting, XGBoo
 ## Deployment
 The final step was to deploy the model so it can be used in real-world scenarios. Deployment involves making the model available to users through a platform or application.
 This summary encapsulates the process of building a predictive model for estimating laptop prices based on specifications, from data collection to deployment.
+<br><br>
+Deployed on Render:
+<br>Render is a cloud platform designed for developers to deploy and manage web applications, backend services, databases, and machine learning models.
 
 ## Risk And Challenges
 In this project, I faced several challenges that made the analysis more complicated. Here are the main issues:<br><br>
